@@ -1,0 +1,644 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/*-----------------------------------------------------------------------------------
+                                        BODY
+----------------------------------------------------------------------------------*/
+
+body {
+
+    background: url(./imagenes/para\ fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*------------------------------------------------------------------------------------
+Seccion
+de
+header
+------------------------------------------------------------------------------------*/
+
+header {
+    
+    display: flex;
+    width: 100%;
+    height: 6rem;
+    margin: 4rem auto;
+    position: fixed;
+align-items: flex-start;
+}
+
+
+
+
+.header-container {
+    width: 55%;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+    background-color: rgba(252, 252, 252, 0.8);
+    border-radius: 90px;
+    min-height: 6rem;
+flex-flow: row wrap;
+}
+
+
+
+header a {
+    color: black;
+    text-decoration: none;
+    font-size: 150%;
+    display: inline;
+    margin: auto;
+justify-content: space-between;
+}
+
+
+
+nav {
+
+    margin: auto;
+    text-align: center;
+}
+
+ul {
+    margin: auto;
+    display: inline-block;
+    list-style: disc;
+    margin: 2rem;
+}
+
+li {
+    margin: auto;
+    display: inline;
+    list-style: none;
+    margin: 2rem;
+}
+
+li a:hover {
+    color: blueviolet;
+}
+
+
+.nada {
+    display: block;
+    height: 10rem;
+}
+
+
+
+/*-------------------------------------------------------------------------------------
+SECTOR
+DE 
+PRESENTATION
+-------------------------------------------------------------------------------------*/
+
+
+#presentation1 {
+    width: 80%;
+    margin: 5rem auto;
+    height: 650px;
+    display: flex;
+    flex-direction: column
+}
+
+#presentation2 {
+    height: 650px;
+    position: absolute;
+    width: 80%;
+    z-index: -1;
+}
+
+.presentation-video img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 80px;
+}
+
+#presentation3{
+    width: 100%;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 80px;
+}
+#presentation4 {
+    color: snow;
+    text-align: center;
+    padding: 200px 0;
+    margin: auto;
+}
+
+.presentation-content h2 {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 80px;
+}
+
+.presentation-content p {
+
+    font-size: 40px;
+}
+
+
+/*------------------------------------------------------------------------------------
+SECTOR 
+DE
+GALERIA
+-----------------------------------------------------------------------------------*/
+
+.galeria {
+
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+
+
+
+.box-galeria h1 {
+    margin: auto;
+    padding: 1rem;
+    font-size: 50px;
+}
+
+
+.galeria-content {
+    display: flex;
+    align-items: center;
+flex-flow: row wrap;
+justify-content: space-around;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.box-galeria {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(252, 252, 252, 1);
+    border-radius: 90%;
+    min-height: 6rem;
+}
+
+.box-diseño {
+    border: solid;
+    height: 40%;
+    width: 40%;
+    margin: 2rem auto;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15%;
+}
+
+.box2 {
+    width: 85%;
+    height: 95%;
+    margin: 1rem auto;
+    border-radius: 15%;
+}
+
+.box2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+    margin: 0;
+    border: solid;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------
+SECTOR
+DE
+LOGOTIPOS
+-------------------------------------------------------------------------------*/
+
+.logotipos { display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.box-logotipo {
+    width: 25%;
+    height: 6rem;
+    display: block;
+    margin: 4rem auto 1rem auto;
+    text-align: center;
+}
+
+.box-logotipo h1 {
+    margin: auto;
+    padding: 2rem;
+    background-color: rgba(252, 252, 252, 0.8);
+    border-radius: 90px;
+    min-height: 6rem;
+    font-size: 50px;
+}
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------
+SECTOR
+DE
+TITULOS
+------------------------------------------------------------------------------*/
+#precios{
+    margin-top: 6rem;
+}
+
+#logotipos{
+    margin: 4rem auto 3rem auto;
+}
+
+#contacto{
+    margin-top: 6rem;
+}
+
+
+/*-------------------------------------------------------------------------------------
+SECTOR 
+DE 
+PRECIOS 
+------------------------------------------------------------------------------------*/
+.preciosycontacto {
+    margin: 2rem auto;
+    height: auto;
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+
+
+.preciosycontacto img {
+    width: 80%;
+    border: solid;
+    border-radius: 10%
+}
+
+
+
+/*----------------------------------------------------------------------------------
+SECTOR 
+DE 
+CONTACTO
+-------------------------------------------------------------------------------*/
+
+
+.presentation{
+    width: 80%;
+    margin: 5rem auto;
+    height: 950px;
+    display: flex;
+    flex-direction: column
+}
+
+.presentation-video {
+    height: 950px;
+    position: absolute;
+    width: 80%;
+    z-index: -1;
+}
+
+.presentation-video img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 80px;
+}
+
+.dark-overlay {
+    width: 100%;
+    height: 950px;
+    border-radius: 80px;
+}
+
+.presentation-content {
+    color: snow;
+    text-align: center;
+    padding:0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation-content a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 80px;
+    color: white;
+    width: 40%;
+}
+
+.ig{
+    height: 33%;
+    margin: 2rem;
+}
+
+.ig img{
+    height: 150px;
+    width: 150px;
+    border: solid white;
+    border-radius: 10%;
+}
+
+.ig a:hover{
+    color: rgb(223, 16, 9);
+}
+
+
+
+.wpp{
+    height: 33%;
+}
+
+.wpp a:hover{
+    color: rgb(9, 223, 170);
+}
+
+.wpp img{
+    height: 150px;
+    width: 150px;
+    border: solid white;
+    border-radius: 10%;
+}
+
+
+.gmail{
+    height: 33%;
+}
+
+.gmail a:hover{
+    color: rgb(223, 173, 9);
+}
+
+
+.gmail img{
+    height: 150px;
+    width: 150px;
+    border: solid white;
+    border-radius: 10%;
+}
+
+
+/*-----------------------------------------------------------------------------------
+FOOTER
+-----------------------------------------------------------------------------------*/
+
+
+footer {
+    width: 100%;
+    height: 6rem;
+    background-color: black;
+    font-size: 25px;
+    text-align: center;
+    margin-top:3rem ;
+}
+
+.copyright {
+
+    color: white;
+}
+
+footer h3 {
+    color: white;
+    font-size: 25px;
+}
+
+
+
+@media only screen and (max-width: 1140px) {
+
+    .header-container {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        padding: 0;
+        background-color: rgba(252, 252, 252, 0.8);
+        border-radius: 90px;
+        min-height: 6rem;
+    flex-flow: row wrap;
+    }
+    
+.box-galeria{
+    width: 40%;
+}
+
+.box2 {
+    width: 95%;
+    height: 95%;
+}
+
+}
+
+@media only screen and (max-width: 790px) {
+    .header-container {
+        width: 99%;
+    }
+
+li{
+    margin: 14px;
+}
+
+.presentation-content h2 {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 50px;
+}
+
+.presentation-content p {
+
+    font-size: 20px;
+}
+
+#presentation1 {
+    height: 550px;
+}
+
+#presentation2 {
+    height: 550px;
+}
+
+
+#presentation3{
+    height: 550px;
+}
+
+.box-diseño {
+    height: 47%;
+    width: 47%;
+}
+
+.box2 {
+    width: 99%;
+    height: 99%;
+}
+
+}
+
+
+@media only screen and (max-width: 560px) {
+
+    .box-galeria{
+        width: 70%;
+    }
+
+    li{
+        margin: 5px;
+    }
+
+    
+#presentation1 {
+    height: 450px;
+}
+
+#presentation2 {
+    height: 450px;
+}
+
+
+#presentation3{
+    height: 450px;
+}
+
+#presentation4 {
+    padding: 90px 0;
+}
+
+
+#precios{
+    margin-top: 3rem;
+}
+
+#logotipos{
+    margin: 4rem auto 3rem auto;
+}
+
+#contacto{
+    margin-top: 6rem;
+}
+
+}
+
+@media only screen and (max-width: 440px){
+
+header{
+    margin: 0;
+}
+
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 0;
+
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  
+  nav li {
+    justify-content: space-between;
+    flex: 1;
+    
+  }
+
+    header a {
+        font-size: 20px;
+    }
+
+    .presentation-content h2 {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 30px;
+    }
+    
+    .presentation-content p {
+    margin-top: 1rem;
+        font-size: 20px;
+    }
+    
+
+    #presentation1 {
+        height: 400px;
+    }
+    
+    #presentation2 {
+        height: 400px;
+    }
+    
+    
+    #presentation3{
+        height: 400px;
+    }
+
+    #presentation4 {
+        padding: 100px 0;
+    }
+
+    .presentation-content a{
+        font-size: 50px;
+    }
+    #logotipos{
+        margin: 2rem auto 3rem auto;
+    }
+
+    
+    #presentation1 {
+        margin-top: 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 332px) {
+
+    header a {
+        font-size: 17px;
+    }
+
+    ul{
+        margin: 0;
+    }
+
+    #presentation1 {
+        margin-top: 0;
+    }
+}
